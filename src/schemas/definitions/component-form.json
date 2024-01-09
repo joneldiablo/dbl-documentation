@@ -1,0 +1,26 @@
+{
+  "componentForm": {
+    "name": "$data/_nameComponentForm",
+    "component": "FormContainer",
+    "fields": "$data/propFieldNames",
+    "content": {
+      "name": "$data/_nameGridForm",
+      "component": "GridContainer",
+      "content": {
+        "propsFieldsContainer": {
+          "name": "$data/_namePropsFieldsContainer",
+          "component": "GridContainer",
+          "content": "$data/propFields"
+        },
+        "componentContainer": {
+          "name": "$data/_nameComponentContainer",
+          "content": {
+            "ref": "$data/properties",
+            "component": "$data/component",
+            "name": "$data/_nameComponent"
+          }
+        }
+      }
+    }
+  }
+}

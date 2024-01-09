@@ -1,0 +1,73 @@
+{
+  "view": {
+    "name": "appComponentsDocumentator",
+    "content": [
+      "hola mundo!!!!!! nananananana 437474747",
+      {
+        "ref": "$definitions/componentForm"
+      }
+    ]
+  },
+  "definitions": {},
+  "data": {
+    "_nameComponent": [
+      "test",
+      "component"
+    ],
+    "_nameComponentContainer": [
+      "test",
+      "componentContainer"
+    ],
+    "_nameComponentForm": [
+      "test",
+      "componentForm"
+    ],
+    "_nameGridForm": [
+      "test",
+      "gridForm"
+    ],
+    "_namePropsFieldsContainer": [
+      "test",
+      "propsFieldsContainer"
+    ],
+    "component": "Field",
+    "propFieldNames": [
+      "type",
+      "required",
+      "label",
+      "placeholder"
+    ],
+    "propFields": {
+      "type": {
+        "label": "type",
+        "component": "Field",
+        "name": "type",
+        "default": "text"
+      },
+      "required": {
+        "label": "required",
+        "component": "SwitchField",
+        "name": "required",
+        "default": true
+      },
+      "label": {
+        "name": "label",
+        "component": "Field",
+        "label": "label",
+        "default": "Saluda Correctamente:"
+      },
+      "placeholder": {
+        "name": "placeholder",
+        "component": "Field",
+        "label": "placeholder",
+        "default": "===Saluda aquí==="
+      }
+    },
+    "properties": {
+      "type": "text",
+      "required": true,
+      "label": "Saluda Correctamente:",
+      "placeholder": "===Saluda aquí==="
+    }
+  }
+}

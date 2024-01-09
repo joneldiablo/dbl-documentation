@@ -1,13 +1,25 @@
-import components from "dbl-components/src/js/components";
+import React, { useState } from "react";
+
+import { BrowserRouterSchema } from "dbl-components/lib/js/react-router-schema/react-router-schema";
 import info from "dbl-components/tmp/components-info.json";
 
+import appCtrl from "./controllers/app-controller";
+
+
+
 function App() {
-  const docs = Object.entries(components).map(([key, C]) => [key, C]);
-  console.log(components);
-  console.log("------");
+
+  const [, fullUpdate] = useState(null);
+  appCtrl.setUpdate(fullUpdate);
+
   console.log(info);
+
+  const props = {
+    routes: appCtrl.rootSchema,
+    test: false
+  }
   return (
-    <>Hola mundo!!!</>
+    <BrowserRouterSchema {...props} />
   );
 }
 
