@@ -1,0 +1,36 @@
+{
+  "componentDescription": {
+    "name": "$data/_nameGridDescription",
+    "component": "GridContainer",
+    "wrapperClasses": "container-fluid",
+    "classes": "justify-content-center align-items-center",
+    "colClasses": "auto-xs-12 auto-sm-10 auto-md-6 auto-lg-4 auto-xl-4 auto-xxl-3",
+    "style": {
+      "height": 300,
+      "overflow": "auto"
+    },
+    "content": {
+      "propsFieldsContainer": {
+        "name": "$data/_nameComponentDescription",
+        "component": "FormContainer",
+        "fields": "$data/propFieldNames",
+        "content": {
+          "name": "$data/_namePropsFieldsContainer",
+          "component": "GridContainer",
+          "colClasses": "auto-xs-12 auto-sm-10 auto-md-6 auto-lg-4 auto-xl-4 auto-xxl-3",
+          "content": "$data/propFields"
+        }
+      },
+      "componentContainer": {
+        "name": "$data/_nameComponentContainer",
+        "wrapperClasses": "card bg-light shadow",
+        "classes": "card-body",
+        "content": {
+          "ref": "$data/properties",
+          "component": "$data/component",
+          "name": "$data/_nameComponent"
+        }
+      }
+    }
+  }
+}

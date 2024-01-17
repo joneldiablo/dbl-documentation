@@ -1,10 +1,11 @@
 {
   "view": {
     "name": "appComponentsDocumentator",
+    "component": "RootController",
     "content": [
       "hola mundo!!!!!! nananananana 437474747",
       {
-        "ref": "$definitions/componentForm"
+        "name": "componentsContainer"
       }
     ]
   },
@@ -18,13 +19,13 @@
       "test",
       "componentContainer"
     ],
-    "_nameComponentForm": [
+    "_nameComponentDescription": [
       "test",
-      "componentForm"
+      "componentDescription"
     ],
-    "_nameGridForm": [
+    "_nameGridDescription": [
       "test",
-      "gridForm"
+      "gridDescription"
     ],
     "_namePropsFieldsContainer": [
       "test",
